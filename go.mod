@@ -27,7 +27,7 @@ require (
 	k8s.io/component-helpers v0.0.0
 	k8s.io/cri-api v1.26.0
 	k8s.io/klog/v2 v2.80.1
-	k8s.io/kubernetes v1.26.0 // actually branch sdn-4.12-kubernetes-1.25.4 in openshift/kubernetes
+	k8s.io/kubernetes v1.26.0 // actually branch sdn-4.13-kubernetes-1.26.0 in openshift/kubernetes
 	k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
 	sigs.k8s.io/yaml v1.3.0
 )
