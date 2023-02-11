@@ -54,7 +54,6 @@ const (
 
 // This is a stripped-down copy of ProxyServer from
 // k8s.io/kubernetes/cmd/kube-proxy/app/server.go, and should be kept in sync with that.
-// (rr) definitely not in sync with https://github.com/openshift/kubernetes/blob/sdn-4.13-kubernetes-1.26.0/cmd/kube-proxy/app/server.go#L527
 type ProxyServer struct {
 	Client             clientset.Interface
 	IptInterface       utiliptables.Interface
